@@ -1,0 +1,65 @@
+CURRENT VERSION:
+
+Name:           QtBiosUpdate
+Version:        it's still a concept at the moment
+Date:           Sat, Mar 28 2009
+Authors:        Dario Freddi (aka drf_), Callea Gaetano Andrea (aka cga)
+Contributors:
+Languages:      C++
+Location:       http://github.com/cga/QtBiosUpdate/tree/master
+
+NOTE: See VERSION_HISTORY for info on Version History and TODO
+
+LICENCE:
+
+This program is Free Software, it's licensed under the GPLv3 and has ABSOLUTELY NO WARRANTY
+you can find and read the complete version of the GPLv3 @ http://www.gnu.org/licenses/gpl.html
+
+NOTE: A LICENCE file containing a verbatim copy of the GPLv3 is included in this package.
+
+FAQ:
+
+Q: what does this application do?
+A: this application updates the BIOS of any computer that can use libsmbios to do that.
+   
+Q: which tools does it use?
+A: It uses official DELL tools included in package "libsmbios" available for most distros.
+   http://linux.dell.com/libsmbios/main/index.html
+
+Q: why did you write this application??
+A: isn't it cool to have a single application to update the BIOS on any Linux? ;)
+   (and in the future for any vendor as long as they provide an equivalent to DELL's "dellBiosUpdate")
+
+Q: why do i have to run this application as root?
+A: because updating the BIOS requires root privileges since libsmbios has to be run as root.
+
+Q: can i use this application to check if new BIOS Versions are availble?
+A: yes you will ;)
+
+Q: how do i do that??
+A: just run the application and see if the selection has a new version, else quit.
+
+Q: can i help somewhow??
+A: yes indeed. help and ideas are welcome =)
+
+Q: great!! can i contact you??
+A: for any suggestions and contributions contact cga @ callea.gaetano.andrea@gmail.com
+
+Q: can i reuse the application to make my own??
+A: hey this is Free Software!! you can do whatever the licence i chose allows you to.
+   AS LONG AS YOU RESPECT THE LICENCE ITSELF of course ;)
+
+Q: do you have any plans for the future of this application???
+A: We plan of doing a proper application usable for other vendors other than DELL too.
+   to do this we are planning to make it modular since libsmbios works for any HDR BIOS.
+   the vendors might code something like dellBiosUpdate (DELL's tool) and we can add it
+   in order to use it for any vendors' computer.
+
+Q: why use Qt 4?
+A: well because Qt 4 is cross platform and desktop agnostic.
+   so it will be portable across Linux, OS X and Windows.
+
+Q: can i join "QtBiosUpdate" development??
+A: there's no development at the moment, we're still planning.
+   and since i can't code C++ and Qt yet and the dev has now time right now
+   you are more than welcome to join even at this early stage.
